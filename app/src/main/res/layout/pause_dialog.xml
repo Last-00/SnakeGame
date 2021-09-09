@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game is paused!"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"/>
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="3">
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="Continue"
+            android:id="@+id/keep"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Try again"
+            android:id="@+id/again2"
+
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Come back to menu"
+            android:id="@+id/menu3"
+            android:layout_weight="1"/>
+    </TableRow>
+    <ImageView
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:background="@drawable/snake_green_cartoon_spotted"/>
+
+</LinearLayout>

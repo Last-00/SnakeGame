@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You won!"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"/>
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="2">
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Next Level"
+            android:id="@+id/next"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Come back to menu"
+            android:id="@+id/menu"
+            android:layout_weight="1"/>
+    </TableRow>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:background="@drawable/snake_image2"/>
+    </RelativeLayout>
+
+</LinearLayout>

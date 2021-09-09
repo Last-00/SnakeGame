@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.NewPlayerActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your data"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Surname"
+        android:textSize="20sp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:text="Take your picture!"
+        android:textSize="20sp"
+        android:id="@+id/CamBtn"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:alpha="0.3"/>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:text="Save data"
+        android:textSize="20sp"
+        android:id="@+id/SaveData"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:alpha="0.3"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/first_level_layout"
+    tools:context=".Activities.GameActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/pointer1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You ate 0 apples!"
+            android:textSize="17sp"
+            android:textColor="#E10808"
+            android:gravity="center"
+            android:id="@+id/textpointer1"
+            android:paddingTop="10dp"/>
+    </RelativeLayout>
+    <com.example.snakegame.Classes.SnakeView
+        android:layout_below="@id/pointer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/snakeView"/>
+
+</RelativeLayout>
